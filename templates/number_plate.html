@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- <title>AI DETECTION</title> -->
+    <meta lang="en">
+    <meta name="viewport" content="width=device-width">
+    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='number_plate.css') }}"> -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='mystyle.css') }}">
+</head>
+<body>
+    <div class="container" style="background-image: url('./static/obb.jpeg');"> 
+        <div class="heading">
+            <h1>Number Plate Detection</h1>
+        </div>
+        <div class="home-page">
+            <a href="{{url_for('NPRImage')}}" class="sub-div-home">Number Plate Detection By Using Image</a>
+            
+            <a href="NPRVideoLoad" class="sub-div-home">Number Plate Detection By Using Scanning</a>
+        </div>
+    </div>
+</body>
+</html>

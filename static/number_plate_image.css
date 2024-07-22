@@ -1,0 +1,59 @@
+/* number_plate_image.css */
+
+/* Resetting default margin and padding */
+body, h1, form {
+  margin: 0;
+  padding: 0;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Light gray background */
+}
+
+/* Header styles */
+header {
+  background-color: #333; /* Dark gray background for header */
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Form styles */
+form {
+  background-color: #fff; /* White background for form */
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for form */
+  padding: 20px;
+  width: 80%; /* Adjust as needed */
+  max-width: 600px; /* Maximum width for form */
+  margin: 50px auto; /* Center the form horizontally */
+}
+
+.area {
+  margin-bottom: 20px; /* Space between elements */
+}
+
+input[type="file"] {
+  display: block; /* Make file input a block element */
+  margin: 0 auto; /* Center file input horizontally */
+}
+
+button {
+  background-color: #4CAF50; /* Green background for button */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block; /* Make button a block element */
+  margin: 0 auto; /* Center button horizontally */
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Conditional message styles */
+h1 {
+  text-align: center;
+}
